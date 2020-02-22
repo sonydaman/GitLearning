@@ -16,3 +16,6 @@ how to push the changes into the remote branch
 1). `git add README.md` #for add specific file into a staging 
 2). `git commit -m "Your message"` for commit into our local branch, -m stands for message which message u want to add put in the quotes
 3). `git push -u origin master` push the local changes into the remote branch
+
+how to pull the changes into the local branch
+1.) `git pull`
