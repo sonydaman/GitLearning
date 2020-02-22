@@ -8,3 +8,11 @@ how to start a project in github
 5.) `git remote add origin https://github.com/sonydaman/GitLearning.git`
     this is only for first time while we need to add our remotely repo link
 6.) `git push -u origin master` push the local changes into the remote branch
+
+how to clone the project in github "
+1). `git clone https://github.com/sonydaman/GitLearning.git`  #this will give the whole project into your local and by default branch will be master.
+
+how to push the changes into the remote branch
+1). `git add README.md` #for add specific file into a staging 
+2). `git commit -m "Your message"` for commit into our local branch, -m stands for message which message u want to add put in the quotes
+3). `git push -u origin master` push the local changes into the remote branch
