@@ -19,3 +19,18 @@ how to push the changes into the remote branch
 
 how to pull the changes into the local branch
 1.) `git pull`
+
+how to solve conflict
+assume i am behind from developed branch and i made many of the changes in the same branch steps are as follows: 
+1). it has to be commit hpw many changes in my local
+    using visual studio code gitlens extension
+    1). click on "+" button that means i am staging my whole files\
+    2). type a message in a box and hit on tick button
+    3). click on triple dots button and choose pull option that means git pull
+    4). now conflicts files shown into the left pane 
+        a). open the file 
+        b). select the option of accept both changes 
+        c). as per rhe requirement we will resolve all the changes and save the file
+        d). same points for rest of other conflicted files
+    5). hit on tick button 
+    6). click on triple dots button and choose push option that means git push into the selected branch
