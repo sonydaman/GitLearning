@@ -52,3 +52,7 @@ how to delete the branch
 `git fetch -p` for update the list which no longer exist on the remote will be deleted.
 
 `git push origin Developing:Develop` if we changed local branch name from remote branch
+For Merging
+    1.) `git checkout -q localbranchname` Select that branch you need to update/merge the changes
+       
+    2.) `git merge UpdatedLocalBranch`
