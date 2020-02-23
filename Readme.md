@@ -40,6 +40,8 @@ assume i am behind from developed branch and i made many of the changes in the s
 `git branch` see the all branches
 
 
-How to make a new branch
+How to make a new branch+swtiched into new branch
+    git checkout -b Develop origin/master
 how to switch on the branch
+    
 how to delete the branch
