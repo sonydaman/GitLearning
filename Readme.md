@@ -47,3 +47,5 @@ assume i am behind from developed branch and i made many of the changes in the s
    `git branch -m new-name` if we are into same branch
    `git branch -m old-name new-name` if we are rename other branch name
 how to delete the branch
+`git branch -d Delete` from local
+`git push origin --delete Delete` from remotely
