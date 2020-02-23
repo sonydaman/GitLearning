@@ -40,8 +40,10 @@ assume i am behind from developed branch and i made many of the changes in the s
 `git branch` see the all branches
 
 
-How to make a new branch+swtiched into new branch
-    git checkout -b Develop origin/master
-how to switch on the branch
-    
+`git checkout -b Develop origin/master` How to make a new branch+swtiched into new branch
+`git push origin -u BranchName` for pushing 
+`git checkout -q Testing` how to switch on the branch
+ how to rename the branch.
+   `git branch -m new-name` if we are into same branch
+   `git branch -m old-name new-name` if we are rename other branch name
 how to delete the branch
