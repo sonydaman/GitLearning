@@ -49,3 +49,4 @@ assume i am behind from developed branch and i made many of the changes in the s
 how to delete the branch
 `git branch -d Delete` from local
 `git push origin --delete Delete` from remotely
+`git fetch -p` for update the list which no longer exist on the remote will be deleted.
