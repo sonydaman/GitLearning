@@ -34,3 +34,12 @@ assume i am behind from developed branch and i made many of the changes in the s
         d). same points for rest of other conflicted files
     5). hit on tick button 
     6). click on triple dots button and choose push option that means git push into the selected branch
+
+
+`git status` Check Status of your current branch
+`git branch` see the all branches
+
+
+How to make a new branch
+how to switch on the branch
+how to delete the branch
