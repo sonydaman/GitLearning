@@ -41,7 +41,7 @@ assume i am behind from developed branch and i made many of the changes in the s
 
 
 `git checkout -b Develop origin/master` How to make a new branch+swtiched into new branch
-`git push origin -u BranchName` for pushing 
+`git push origin -u BranchName` for pushing new branch
 `git checkout -q Testing` how to switch on the branch
  how to rename the branch.
    `git branch -m new-name` if we are into same branch
