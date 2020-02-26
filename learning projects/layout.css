@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }  
+
+body{
+    max-width: 50%;
+    align-content: center;
+}
+
+header, footer{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: khaki;
+    height: 100px;
+    margin-top: 10px;
+}
+
+nav > li{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+aside{
+    background-color:aqua;
+    float:left;
+    width: 30%;
+    height: 300px;
+}
+
+article{
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    float: right;
+    width: 70%;
+    height: 300px;
+}
