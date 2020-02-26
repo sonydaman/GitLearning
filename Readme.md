@@ -61,12 +61,11 @@ assume i am behind from developed branch and i made many of the changes in the s
 
 
 `git status` Check Status of your current branch
+`git branch` see the all branches in local
+`git branch -a` see all branches locally or remotely
 
-`git branch` see the all branches
 
-
-`git checkout -b Develop origin/master` How to make a new branch+swtiched into new branch
-
+`git checkout -b Develop origin/master` How to make a new branch+swtiched into new branch. it also means that the Develop branch will be cut from master
 `git push origin -u BranchName` for pushing new branch
 
 `git checkout -q Testing` how to switch on the branch
