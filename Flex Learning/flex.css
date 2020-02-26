@@ -1,14 +1,23 @@
-body{
+html, body{
     background-color: khaki;
-    margin: 10px;
+    /* margin: 10px; */
+    height: 100%;
 }
 
 .container>div{
-    border: 5px solid red;
+    
     padding: 10px;
     text-align: center;
     color: #ffeead;
+    flex: 1; /*other properties are :flex-grow, flex-shrink, flex-basis*/
+    /*if we are giving flex a value of 1 it means flex-grow and flex-shrink has value of 1 and flex-basis has value 0
+    or we can write as flex: 1 1 0; it iis same as above line*/
+    /*flex-grow it allows the element to gro automatically like if we give flex-grow: 1 to home; then it will automatically fill up empty space*/
 }
+
+/* .container> .about{
+    flex: 2; /*give about element width twice as the other elements
+} */
 
 .container>div:nth-child(1){
    background-color: cadetblue;
@@ -28,7 +37,25 @@ div{
 }
 
 .container{
+    border: 5px solid red;
     display: flex;
-    /* flex-direction: column; it makes elements align horizontally ie top to bottom */
-    /* default alignment is row ie left to right */
+    flex-direction: column; /*it makes elements align horizontally ie top to bottom */    /* default alignment is row ie left to right */
+    text-align: center;
+    justify-content: center;     /*other values are flex-start(default), flex-end, space-around, space-between, space-evenly */
+    height: 100%;
+    /* align-items: center; */ /*align content to the center*/
+    /* flex-wrap: wrap; it will push content to anotehr row if it does not fit into the container. its default value is nowrap */
+
 }
+
+/*.logout{
+    /*margin-left: auto;
+    /*cahnge the class to .contact and if we give margin-left:auto; to contact it will push both itself and logout to the right side
+    align-self: flex-end;
+}*/
+
+/*.home{
+    align-self: flex-start;
+}*/
+
+
