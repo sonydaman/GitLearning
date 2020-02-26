@@ -1,0 +1,34 @@
+body{
+    background-color: khaki;
+    margin: 10px;
+}
+
+.container>div{
+    border: 5px solid red;
+    padding: 10px;
+    text-align: center;
+    color: #ffeead;
+}
+
+.container>div:nth-child(1){
+   background-color: cadetblue;
+}
+.container>div:nth-child(2){
+    background-color: chocolate;
+}
+.container>div:nth-child(3){
+   background-color: cadetblue;
+}
+.container>div:nth-child(4){
+    background-color: chocolate;
+ }
+
+div{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column; it makes elements align horizontally ie top to bottom */
+    /* default alignment is row ie left to right */
+}
