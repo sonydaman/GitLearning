@@ -19,6 +19,10 @@ nav{
     margin-top: 10px;
 }
 
+nav > ul{
+    margin: 0px;
+}
+
 nav > li{
     padding: 10px;
     margin: 10px;
