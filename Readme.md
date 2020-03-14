@@ -54,3 +54,11 @@ how works media query --> @media,tablet,mobile
 
 Next Task List
 align-items,align-content,fixed,static,inherit,unset
+
+========= TASKS LIST =========
+1.) In the Sample site that should be a real pahse not like sample site
+2.) Resposvie site(Cross browser,mobile,tab)
+3.) Menu + list should be improve in terms of UI
+4.) Logo,Header,Footer should looks like real site
+5.) Menu like (Home,About,Gallery,Contact)
+6.) List like (Category,Year,Months,Posts)

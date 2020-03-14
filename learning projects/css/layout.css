@@ -7,60 +7,66 @@ body {
 }
 
 .container {
-    height: max-content;
-    max-width: 1720px;
-    border: 1px solid #000000;
-    margin: 2em;
-  }
+  height: max-content; /* read it care fully */
+  max-width: 1720px;
+  border: 1px solid #000000;
+  /* 
+      #  color must be in 6 alphanumeric
+      a-f and 0-9 that is the limit of colors
+      hax,rgba,#
+     */
+  margin: 2em;
+}
 
-  header{
-      background-color: gray;
-      text-align: center;
-      padding: 20px;
-      height: 60px;
-  }
+header {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  height: 60px;
+}
 
-  /* nav a{
+/* nav a{
     display: flexbox;
     justify-content: space-around;
   } */
 
-  #navbar{
-      padding: 20px;
-      border: 1px solid black;
-  }
+#navbar {
+  padding: 20px;
+  border: 1px solid black;
+}
 
-  #navbar a {
-      margin: 140px;
-      padding: 10px;
-      text-decoration: none;
-      display: inline;
-  }
+#navbar a {
+  margin: 140px;
+  padding: 10px;
+  text-decoration: none; /* Read it carefully */
+  display: inline; /* Read it carefully */
+}
 
-  /* #navbar > a:hover {
-    background-color:white;
-  } */
+#navbar > a:hover {
+  background-color: black;
+  color: #ffffff;
+}
 
-  #div{
-    display: flex;
-  }
+#div {
+  display: flex;
+}
 
-#aside{
+#aside {
   border: 1px solid black;
   flex-grow: 1;
   flex-shrink: 1;
-}  
+}
 
 /* .flex{
 
 } */
 
-#aside li{
-    padding: 5px;
-    list-style-type: none;
+#aside li {
+  padding: 5px;
+  list-style-type: none; /* Read it carefully */
 }
 
-#main{
+#main {
   border: 1px solid black;
   flex-grow: 2;
   flex-shrink: 2;
@@ -68,11 +74,11 @@ body {
   line-height: 50px;
 }
 
-footer{
-    background-color: gray;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -85,7 +91,7 @@ footer{
     padding: 10px;
     text-decoration: none;
     display: inline;
-}
+  }
 }
 
 @media (max-width: 768px) {
@@ -98,7 +104,7 @@ footer{
     padding: 10px;
     text-decoration: none;
     display: inline;
-}
+  }
 }
 
 @media (max-width: 670px) {
@@ -106,10 +112,10 @@ footer{
     max-width: fit-content;
     margin: 0.8em;
   }
-    #navbar a {
-      margin: 90px;
-      padding: 10px;
-      text-decoration: none;
-      display: inline;
+  #navbar a {
+    margin: 90px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline;
   }
 }
