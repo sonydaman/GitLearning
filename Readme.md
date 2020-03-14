@@ -62,3 +62,8 @@ align-items,align-content,fixed,static,inherit,unset
 4.) Logo,Header,Footer should looks like real site
 5.) Menu like (Home,About,Gallery,Contact)
 6.) List like (Category,Year,Months,Posts)
+
+======= JQUERY + JAVASCRIPT =======
+1.) todo snippet code of jquery + javascript
+2.) Few functions of array,loop and datatype
+3.) Working with real dom + update dom
