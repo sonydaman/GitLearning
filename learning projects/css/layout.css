@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  /* max-width: 1720px; */
+  max-width: 1720px;
   border: 1px solid #000000;
   }
 
@@ -20,8 +20,13 @@ header{
 }
 
 #navbar{
-    padding: 10px;
-    border: 1px solid black;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#brand{
+  font-size: 20px;
+  color: navy;
 }
 
 #navbar a {
@@ -82,7 +87,7 @@ footer{
     margin: 0.8em;
   }
   #navbar{
-    font-size: small;
+    font-size: medium;
   }
 }
 
@@ -91,7 +96,7 @@ footer{
     margin: 0.8em;
   }
   #navbar{
-    font-size: small;
+    font-size: medium;
   }
   
 }
