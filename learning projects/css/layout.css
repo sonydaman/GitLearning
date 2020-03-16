@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
   /* max-width: 1720px; */
   border: 1px solid #000000;
   }
@@ -43,50 +42,6 @@ header{
 #div{
   display: flex;
   height: 350px;
-=======
-  height: max-content; /* read it care fully */
-  max-width: 1720px;
-  border: 1px solid #000000;
-  /* 
-      #  color must be in 6 alphanumeric
-      a-f and 0-9 that is the limit of colors
-      hax,rgba,#
-     */
-  margin: 2em;
-}
-
-header {
-  background-color: gray;
-  text-align: center;
-  padding: 20px;
-  height: 60px;
-}
-
-/* nav a{
-    display: flexbox;
-    justify-content: space-around;
-  } */
-
-#navbar {
-  padding: 20px;
-  border: 1px solid black;
-}
-
-#navbar a {
-  margin: 140px;
-  padding: 10px;
-  text-decoration: none; /* Read it carefully */
-  display: inline; /* Read it carefully */
-}
-
-#navbar > a:hover {
-  background-color: black;
-  color: #ffffff;
-}
-
-#div {
-  display: flex;
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
 }
 
 #aside {
@@ -94,7 +49,6 @@ header {
   flex-grow: 1;
   flex-shrink: 1;
 }
-<<<<<<< HEAD
 
 #aside li{
   padding: 5px;
@@ -104,16 +58,6 @@ header {
 
 #aside li:nth-child(odd){
   color: chocolate;
-=======
-
-/* .flex{
-
-} */
-
-#aside li {
-  padding: 5px;
-  list-style-type: none; /* Read it carefully */
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
 }
 
 #main {
@@ -124,27 +68,19 @@ header {
   line-height: 50px;
 }
 
-<<<<<<< HEAD
 footer{
-=======
-footer {
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
   background-color: gray;
   text-align: center;
   padding: 10px;
   font-size: 20px;
-<<<<<<< HEAD
   height:150px;
   line-height: 100px;
-=======
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
 }
 
 @media (max-width: 1366px) {
   .container {
     margin: 0.8em;
   }
-<<<<<<< HEAD
   #navbar{
     font-size: small;
   }
@@ -158,21 +94,12 @@ footer {
     font-size: small;
   }
   
-=======
-  #navbar a {
-    margin: 50px;
-    padding: 10px;
-    text-decoration: none;
-    display: inline;
-  }
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
 }
 
 @media (max-width: 823px) {
   .container {
     margin: 0.8em;
   }
-<<<<<<< HEAD
   #navbar{
     font-size: x-small;
   }
@@ -202,13 +129,6 @@ footer {
   }
   #aside li{
     padding-left: 0px;
-=======
-  #navbar a {
-    margin: 50px;
-    padding: 10px;
-    text-decoration: none;
-    display: inline;
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
   }
 }
 
@@ -216,7 +136,6 @@ footer {
   .container {
     margin: 0.8em;
   }
-<<<<<<< HEAD
   #navbar{
     font-size: 9px;
   }
@@ -228,12 +147,5 @@ footer {
   }
   #aside li{
     padding-left: 0px;
-=======
-  #navbar a {
-    margin: 90px;
-    padding: 10px;
-    text-decoration: none;
-    display: inline;
->>>>>>> 9c5232c181b773d8d355a0522391004e9739a0c9
   }
 }
