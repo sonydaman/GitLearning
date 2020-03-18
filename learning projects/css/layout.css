@@ -10,7 +10,7 @@ body {
 .container {
   /* max-width: 1720px; */
   max-width: 1720px;
-  border: 1px solid #000000;
+  border: 1px solid white;
   }
 
 header{
@@ -22,7 +22,7 @@ header{
 
 #navbar{
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 #brand{
@@ -51,7 +51,7 @@ header{
 }
 
 #aside{
-  border: 1px solid black;
+  border: 1px solid white;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -64,6 +64,7 @@ header{
 
 #aside li:nth-child(odd){
   color: chocolate;
+  font-size: 20px;
 }
 
 #aside li:nth-child(odd){
@@ -71,7 +72,7 @@ header{
 }
 
 #main{
-  border: 1px solid black;
+  border: 1px solid white;
   flex-grow: 8;
   flex-shrink: 8;
   text-align: center;
@@ -87,7 +88,12 @@ footer{
   line-height: 100px;
 }
 
+
 @media (max-width: 1366px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
@@ -97,6 +103,10 @@ footer{
 }
 
 @media (max-width: 1024px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
@@ -107,6 +117,10 @@ footer{
 }
 
 @media (max-width: 823px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
@@ -126,6 +140,10 @@ footer{
 }
 
 @media (max-width: 640px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
@@ -144,6 +162,10 @@ footer{
 }
 
 @media (max-width: 640px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
@@ -162,6 +184,10 @@ footer{
 }
 
 @media (max-width: 350px) {
+  html, body{
+    width: 100%;
+    height: 100%;
+  }
   .container {
     margin: 0.8em;
   }
