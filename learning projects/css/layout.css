@@ -14,7 +14,7 @@ body {
   }
 
 header{
-  background-color: tomato;
+  /* background-color: tomato; */
   text-align: center;
   padding: 20px;
   height: 100px;
@@ -27,6 +27,7 @@ header{
 }
 
 #navbar{
+  /* background-color: brown; */
   padding: 10px;
   border: 1px solid white;
 }
@@ -58,6 +59,7 @@ header{
 }
 
 #aside{
+  /* background-color: yellow; */
   border: 1px solid white;
   flex-grow: 1;
   flex-shrink: 1;
@@ -74,11 +76,8 @@ header{
   font-size: 20px;
 }
 
-#aside li:nth-child(odd){
-  color: chocolate;
-}
-
 #main{
+  /* background-color: green; */
   border: 1px solid white;
   flex-grow: 8;
   flex-shrink: 8;
@@ -86,7 +85,7 @@ header{
 }
 
 footer{
-  background-color: tomato;
+  /* background-color: tomato; */
   text-align: center;
   padding: 10px;
   font-size: 20px;
