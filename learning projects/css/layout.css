@@ -94,7 +94,7 @@ footer{
   padding: 10px;
   font-size: 20px;
   height:65px;
-  line-height: 100px;
+  line-height: 75px;
 }
 
 footer a{
@@ -114,7 +114,6 @@ footer a:hover{
   }
   .container {
     margin: 0.8em;
-    width: 100%;
     height: 100%;
   }
   #navbar{
@@ -129,13 +128,14 @@ footer a:hover{
   }
   .container {
     margin: 0.8em;
-    width: 100%;
     height: 100%;
   }
   #navbar{
     font-size: medium;
   }
-  
+  footer{
+    height: 90px;
+  }
 }
 
 @media (max-width: 823px) {
@@ -145,7 +145,6 @@ footer a:hover{
   }
   .container {
     margin: 0.8em;
-    width: 100%;
     height: 100%;
   }
   #navbar{
@@ -170,8 +169,12 @@ footer a:hover{
   }
   .container {
     margin: 0.8em;
-    width: 100%;
     height: 100%;
+  }
+  #header_image{
+    width: 150px;
+    height: 150px;
+    margin: 40px 0 0 100px;
   }
   #navbar{
     font-size: xx-small;
@@ -185,52 +188,49 @@ footer a:hover{
   #aside li{
     padding-left: 0px;
   }
-}
-
-@media (max-width: 640px) {
-  html, body{
-    width: 100%;
-    height: 100%;
-  }
-  .container {
-    margin: 0.8em;
-    width: 100%;
-    height: 100%;
-  }
-  #navbar{
-    font-size: xx-small;
-  }
-  #div{
+  footer{
+    padding-top: 35px;
     font-size: 15px;
-  }
-  ul{
-    padding-left: 5px;
-  }
-  #aside li{
-    padding-left: 0px;
+    height: 120px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   html, body{
     width: 100%;
     height: 100%;
   }
   .container {
     margin: 0.8em;
-    width: 100%;
     height: 100%;
+  }
+  header{
+    height: 175px;
+  }
+  #header_image{
+    margin: 25px 0 0 90px;
+    height: 125px;
+    width: 125px;
   }
   #navbar{
     font-size: 9px;
   }
   #div{
     font-size: 10px;
+    height: 200px;
   }
   ul{
     padding-left: 3px;
   }
   #aside li{
     padding-left: 0px;
+  }
+  #aside li:nth-child(odd){
+    font-size: 12px;
+  }
+  footer{
+    padding-top: 35px;
+    font-size: 12.5px;
+    height: 120px;
   }
 }
